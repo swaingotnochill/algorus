@@ -72,7 +72,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/swaingotnochill/algorus',
+            to: 'https://github.com/swaingotnochill/algorus',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,19 +91,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Socials',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                to: 'https://twitter.com/_SnRoshan',
+              },
+              {
+                label: 'Linkedin',
+                to: 'https://linkedin.com/in/snroshan',
+              },
+              {
+                label: 'Medium',
+                to: 'https://knowviole.medium.com/',
               },
             ],
           },
@@ -111,17 +111,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Hashnode',
+                to: 'https://hashnode.com/@ChasingClouds',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                to: 'https://github.com/swaingotnochill',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} swaingotnochill.`,
       },
       prism: {
         theme: lightCodeTheme,
